@@ -1,0 +1,42 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alword/WebpackDockerE2ELabs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alword/WebpackDockerE2ELabs/issues"
+  },
+  "homepage": "https://github.com/Alword/WebpackDockerE2ELabs#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "fetch-jsonp": "^1.1.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "style-loader": "^1.0.0",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "description": "Check it out on [GitHub Pages!](https://alword.github.io/WebpackDockerE2ELabs/)",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  }
+}
