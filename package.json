@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alword/WebpackDockerE2ELabs.git"
+    "url": "git+https://github.com/lulusuzaku/lab2.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Alword/WebpackDockerE2ELabs/issues"
+    "url": "https://github.com/lulusuzaku/lab2/issues"
   },
   "homepage": "https://github.com/Alword/WebpackDockerE2ELabs#readme",
   "devDependencies": {
