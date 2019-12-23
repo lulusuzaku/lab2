@@ -8,9 +8,10 @@ export default function App() {
     const [input, setInput] = React.useState("1");
     const inputRef = React.useRef();
 
-    
+
     React.useEffect(() => {
-        Request(setData, input);
+        const fetchJsonp = require('fetch-jsonp')
+        Request(setData, input, fetchJsonp);
     }, [input]);
 
     const handleClick = () => {
